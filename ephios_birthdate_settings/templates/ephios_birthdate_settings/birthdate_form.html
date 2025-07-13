@@ -2,7 +2,7 @@
 
 {% block settings_content %}
   <h2>Geburtsdatum setzen</h2>
-  <p>Bitte gib dein Geburtsdatum ein. Es kann nach dem Speichern nicht mehr geändert werden.</p>
+  <p>Bitte gib dein Geburtsdatum ein. Es kann nach dem Speichern nicht mehr durch dich geändert werden.</p>
   <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
