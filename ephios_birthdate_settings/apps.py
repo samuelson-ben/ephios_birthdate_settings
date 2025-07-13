@@ -1,6 +1,5 @@
 from ephios.core.plugins import PluginConfig
 
-
 class PluginApp(PluginConfig):
     name = "ephios_birthdate_settings"
 

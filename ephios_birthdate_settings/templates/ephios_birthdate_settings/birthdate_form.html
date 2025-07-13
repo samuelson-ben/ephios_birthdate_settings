@@ -1,0 +1,11 @@
+{% extends "core/settings/settings_base.html" %}
+
+{% block settings_content %}
+  <h2>Geburtsdatum setzen</h2>
+  <p>Bitte gib dein Geburtsdatum ein. Es kann nach dem Speichern nicht mehr geändert werden.</p>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">Speichern</button>
+  </form>
+{% endblock %}
