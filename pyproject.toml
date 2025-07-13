@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ephios-birthdate-settings"
-version = "0.1.0"
+version = "1.0.0"
 description = "Allows user to set his own birthdate once"
 authors = ["Ben Samuelson <ben.samuelson@fiteka.de>"]
 license = "GPL-3.0-or-later"
